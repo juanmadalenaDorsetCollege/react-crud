@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:3050",
+    baseURL: "https://top-players-mongo.zeabur.app",
 });
 
 export default api;
